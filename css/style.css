@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Heebo:wght@100..900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+body{
+	color:var(--color-contenido);
+}
+
+
+header img{
+	width: 70px;
+	margin-left: 60px;
+}
+
+
+#hero h1{
+	font-size: 70px;
+	font-weight: 900;
+	font-family: "Heebo";
+	color: #fff;
+}
+
+#hero h2 {
+	font-size: 70px;
+	font-weight: 900;
+	font-family: "Heebo";
+	color: var(--color-naranja);
+}
+
+
+.margen-superior{
+	margin-top: 70px;
+}
+
+#hero {
+	background-image: url("../img/slider-glob.png");
+	background-position: center;
+	background-size: cover;
+	padding: 15% 0;
+	text-align: left;
+	background-color: var(--color-titulos);
+	
+}
+
+
+#hero p{
+	font-size: 15px;
+	margin-top: 40px;
+}
+
+#hero .btn {
+	border: 2px var(--color-naranja);
+	background-color: var(--color-naranja);
+	border-radius: 30px;
+	color: var(--color-titulos);
+	font-weight: 900;
+	padding: 15px 50px;
+	font-family: "Heebo";
+}
+
+#hero .btn:hover {
+	border-color: #000;
+	color: #000;
+	background-color: var(--color-contenido);
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+	font-family: "Heebo";
+}
+
+#title h5{
+	color: var(--color-naranja);
+	font-size: 15px;
+	text-align: center;
+	font-family: "catamaran";
+	padding-top: 40px;
+	font-weight: 700;
+	
+}
+
+#goods h5{
+	color: var(--color-titulos);
+	font-size: 15px;
+	text-align: center;
+	font-family: "catamaran";
+	padding-top: 40px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+#goods img {
+	width: 300px; 
+}
+
+#goods h1{
+	color: var(--color-titulos);
+	font-size: 15px;
+	text-align: center;
+	font-family: "Heebo";
+	font-weight: 700;
+}
+
+#goods h6{
+	font-family: "Catamaran";
+	color: var(--color-negro);
+	font-weight: 100;
+	text-align: center;
+}
+
+#goods p{
+	color: var(--color-titulos);
+	font-size: 15px;
+	text-align: center;
+	font-weight: 700;
+}
+
+#goods .btn {
+	border: 2px var(--color-naranja);
+	background-color: var(--color-naranja);
+	border-radius: 30px;
+	color: var(--color-titulos);
+	font-weight: 900;
+	padding: 15px 50px;
+	font-family: "Heebo";
+	margin-left: 63px;
+	margin-bottom: 80px;
+
+}
+
+#goods .btn:hover {
+	border-color: #000;
+	color: #000;
+	background-color: var(--color-contenido);
+}
+
+#title h1{
+	text-align: center;
+	color: var(--color-titulos);
+	font-family: "Heebo";
+	font-weight: 700;
+}
+
+#home {
+	background-color: var(--color-titulos);
+}
+
+#home .athome {
+	width: 800px;
+	margin-left: -120px;
+	padding-left: 0;
+	
+}
+
+#home h1{
+	
+	font-size: 50px;
+	font-weight: 900;
+	font-family: "Heebo";
+	color: #fff;
+	margin: 100px;
+	margin-bottom: 3px;
+	
+}
+
+#home h2{
+	
+	font-size: 50px;
+	font-weight: 900;
+	font-family: "Heebo";
+	color: var(--color-naranja);
+	margin-left: 100px;
+		
+}
+
+#home p{
+	margin-left: 100px;
+	color: #fff;
+}
+
+#home .btn {
+	border: 2px var(--color-naranja);
+	background-color: var(--color-naranja);
+	border-radius: 30px;
+	color: var(--color-titulos);
+	font-weight: 900;
+	padding: 15px 50px;
+	font-family: "Heebo";
+	margin-left: -380px;
+	margin-top: 50px;
+
+}
+
+#home .btn:hover {
+	border-color: #000;
+	color: #000;
+	background-color: var(--color-contenido);
+}
+
+#icons img{
+	width: 50px;
+}
+
+#icons {
+	margin-left: 80px;
+
+
+}
+
+#icons h5{
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+}
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
